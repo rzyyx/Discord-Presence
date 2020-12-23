@@ -46,8 +46,9 @@ client.login({clientId: 'Your_Discord_Developer_portal_application_clientID'})
 > - Step Thirteen: Go back to you command promt, and type `node .`, and you are done!
 
 ## Congragulations, you did it!
-> - If you do not see your presence bot your command line says something like "<Your_username_and_tag>'s presence has updated (I think)". Then it did work. You just can't see
-> it, in some cases.. but everyone else can. This has happened to me. 
+> - If you do not see your presence bot your command line says something like "<Your_username_and_tag>'s presence has updated (I think)". Then it did work. You just can't see it, in some cases.. but everyone else can. This has happened to me. 
+> - Make sure your Visual Studio Code Discord Presence Is Off (If you do not have this, this does not apply to you.) or you just check anything that has `instance: true`.
 > *Please join [Blurple Development](https://blurple.gg/discord) if you are having issues with this presence guide.*
+
 
 **Support this guide made by 4D#9999 by joining [Blurple Development](https://blurple.gg/discord)**
