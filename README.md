@@ -37,6 +37,7 @@ client.on('ready', () => {
 console.log(client.user.username+"#"+client.user.discriminator+"\'s presence has updated (I Think)")
 })
 
-client.login({clientId: 'Your_Discord_Developer_portal_application_clientID'})```
+client.login({clientId: 'Your_Discord_Developer_portal_application_clientID'})
+```
 
 *Please join [Blurple Development](https://blurple.gg/discord) if you are having issues with this presence guide.*
