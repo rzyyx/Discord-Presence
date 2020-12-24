@@ -1,6 +1,12 @@
 # Discord-Presence (Multi Button/Link Changing)
 This is a guide on how to have the brand new Rich-Presence beta on your profile!
 
+# Features
+- Changing game status 🚀
+- Easy to setup 🌌
+- Doesn't take up loads of ram / memory 🤔
+- Does not require you any JavaScript knowlage at all 💗
+
 > ## Setup the Rich Presence
 > - Step One: Download [Node JS](https://nodejs.org/), please make sure to have the LTS version.
 > - Step Two: Download [Visual Studio Code](https://code.visualstudio.com/)
