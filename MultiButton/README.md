@@ -91,9 +91,9 @@ Your status will now change every '1 minute'"`. Then it did work. You just can't
 > **NOTE**:
 > "Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)" will appear if you change the `interval` in the configuration file to below `60` 
 
-**Support this guide made by 4D#9999 & `🎀❤Pikachilla❤🎀#3129` (contributor)**
+**Support this guide made by `4D#9999` & `🎀❤Pikachilla❤🎀#3129` (contributor)**
 
 **Join the [Blurple Development](https://blurple.gg/discord) Server for more help if you so wish.**
 
-###### Original Developer: 4D#9999
+###### Original Developer: `4D#9999`
 ###### Contributor: `🎀❤Pikachilla❤🎀#3129`
