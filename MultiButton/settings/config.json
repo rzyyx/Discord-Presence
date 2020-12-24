@@ -1,0 +1,33 @@
+{
+    "interval": 60,
+    "instance": true,
+    "client_id": "Your_Discord_Developer_portal_application_client_id",
+    "set_one": {
+        "assets": {
+            "image_text": "Wumpus Approves!",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Blurple Development",
+            "label_url": "https://blurple.gg/"
+        },
+        "button_two": {
+            "label_name": "Support Server",
+            "label_url": "https://blurple.gg/discord"
+        }
+    },
+    "set_two": {
+        "assets": {
+            "image_text": "Text Above RPC Image",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Example Text",
+            "label_url": "https://example.com"
+        },
+        "button_two": {
+            "label_name": "👀👀👀👀 yes you can use emojis too",
+            "label_url": "https://another-link-here.lol/"
+        }
+    }
+}
