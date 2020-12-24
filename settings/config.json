@@ -1,1 +1,33 @@
-{}
+{
+    "interval": 60,
+    "instance": true,
+    "client_id": "Your_Discord_Developer_portal_application_client_id",
+    "set_one": {
+        "assets": {
+            "image_text": "Blurple Development",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Website",
+            "label_url": "https://blurple.gg/"
+        },
+        "button_two": {
+            "label_name": "Discord Server",
+            "label_url": "https://blurple.gg/discord"
+        }
+    },
+    "set_two": {
+        "assets": {
+            "image_text": "Riot Bot",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Invite",
+            "label_url": "https://blurple.gg/riot"
+        },
+        "button_two": {
+            "label_name": "Support Server",
+            "label_url": "https://blurple.gg/discord"
+        }
+    }
+}
