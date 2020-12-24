@@ -63,8 +63,7 @@ function changeButtons() {
 
 client.on('ready', async () => {
   if (config.interval < 60) {
-    console.error("Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)");
-    process.exit(0);
+    console.error("Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)")
   }
   setInterval(function () {
     try {
@@ -77,6 +76,61 @@ client.on('ready', async () => {
 });
 
 client.login({ clientId: config.client_id }).catch(console.error);
+```
+# Configuration File(config.json)
+```json
+{
+    "interval": 60,
+    "instance": true,
+    "client_id": "Your_Discord_Developer_portal_application_client_id",
+    "set_one": {
+        "assets": {
+            "image_text": "Wumpus Approves!",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Blurple Development",
+            "label_url": "https://blurple.gg/"
+        },
+        "button_two": {
+            "label_name": "Support Server",
+            "label_url": "https://blurple.gg/discord"
+        }
+    },
+    "set_two": {
+        "assets": {
+            "image_text": "Text Above RPC Image",
+            "image_key": "Your_Discord_Developer_portal_application_rpc_image"
+        },
+        "button_one": {
+            "label_name": "Example Text",
+            "label_url": "https://example.com"
+        },
+        "button_two": {
+            "label_name": "👀👀👀👀 yes you can use emojis too",
+            "label_url": "https://another-link-here.lol/"
+        }
+    }
+}
+```
+# Package JSON (package.json)
+```json
+{
+  "name": "rpc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "discord-rpc": "^3.1.4",
+    "pretty-ms": "^7.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CyberCDN & 4D",
+  "license": "ISC"
+}
 ```
 > - Step Thirteen: Go back to you command prompt or powershell, and type `node .`, and you are done!
 
@@ -91,9 +145,8 @@ Your status will now change every '1 minute'"`. Then it did work. You just can't
 > **NOTE**:
 > "Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)" will appear if you change the `interval` in the configuration file to below `60` 
 
-**Support this guide made by `4D#9999` & `🎀❤Pikachilla❤🎀#3129` (contributor)**
-
+**Support this guide made by 4D#9999 & 🎀❤Pikachilla❤🎀#3129 (contributor)**
 **Join the [Blurple Development](https://blurple.gg/discord) Server for more help if you so wish.**
 
-###### Original Developer: `4D#9999`
-###### Contributor: `🎀❤Pikachilla❤🎀#3129`
+###### Original Developer: 4D#9999
+###### Contributor: 🎀❤Pikachilla❤🎀#3129
