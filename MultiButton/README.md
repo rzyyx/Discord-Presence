@@ -63,7 +63,8 @@ function changeButtons() {
 
 client.on('ready', async () => {
   if (config.interval < 60) {
-    console.error("Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)")
+    console.error("Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)");
+    process.exit(0);
   }
   setInterval(function () {
     try {
@@ -91,6 +92,7 @@ Your status will now change every '1 minute'"`. Then it did work. You just can't
 > "Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)" will appear if you change the `interval` in the configuration file to below `60` 
 
 **Support this guide made by 4D#9999 & 🎀❤Pikachilla❤🎀#3129 (contributor)**
+
 **Join the [Blurple Development](https://blurple.gg/discord) Server for more help if you so wish.**
 
 ###### Original Developer: 4D#9999
