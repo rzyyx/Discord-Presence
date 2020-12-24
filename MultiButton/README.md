@@ -77,7 +77,7 @@ client.on('ready', async () => {
 
 client.login({ clientId: config.client_id }).catch(console.error);
 ```
-# Configuration File(config.json)
+#### Configuration File(config.json)  *For those who wish to MANUALLY DO THIS*
 ```json
 {
     "interval": 60,
@@ -113,7 +113,7 @@ client.login({ clientId: config.client_id }).catch(console.error);
     }
 }
 ```
-# Package JSON (package.json)
+#### Package JSON (package.json) *For those who wish to MANUALLY DO THIS*
 ```json
 {
   "name": "rpc",
@@ -137,8 +137,11 @@ client.login({ clientId: config.client_id }).catch(console.error);
 ## Congratulations, you did it!
 > - If you do not see your presence but your command line says something like `"<Your_username_and_tag>'s's presence has updated.
 Your status will now change every '1 minute'"`. Then it did work. You just can't see it, in some cases... but everyone else can. This has happened to me. 
+
 > ~~- Make sure your Visual Studio Code Discord Presence Is Off (If you do not have this, this does not apply to you.) or you just check anything that has `instance: true`.~~
+
 > - The above has now been automated, so if you do have a VSC RPC plugin, it will be automatically over ridden by your new RPC. (optional feature, you can also change this to `false` in the configuration file, which will allow VSC RPC plugins to override this RPC) 
+
 > *Please join [Blurple Development](https://blurple.gg/discord) if you are having issues with this presence guide.*
 
 
@@ -146,6 +149,7 @@ Your status will now change every '1 minute'"`. Then it did work. You just can't
 > "Due to Discord API Ratelimiting, it is best to keep the interval count above 60 (60 seconds)" will appear if you change the `interval` in the configuration file to below `60` 
 
 **Support this guide made by 4D#9999 & 🎀❤Pikachilla❤🎀#3129 (contributor)**
+
 **Join the [Blurple Development](https://blurple.gg/discord) Server for more help if you so wish.**
 
 ###### Original Developer: 4D#9999
